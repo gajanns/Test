@@ -13,8 +13,8 @@ class Tests:
 	def __init__(self):
 		# TODO (eventually): DEFINE PARAMETERS HERE!
 		# Names of the script files and the JSON files
-		self.TESTFILES = ['kwpJoint.topo.sh', 'Weights.topo.sh']
-		self.JSON_FILES = ['kwpjoint.json', 'weights.json']
+		self.TESTFILES = ['kwpn.topo.sh', 'Weights.topo.sh']
+		self.JSON_FILES = ['kwpnjoint.json', 'weights.json']
 		# ID of the first test.
 		# This number is used in the CSV file for identification and in the filename.
 		# It is incremented for every new test case.
