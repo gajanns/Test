@@ -168,7 +168,7 @@ tests = Tests()
 # Set starting test ID (overwrite value from constructor here)
 tests.TEST_ID = 99
 # run 100x
-for i in range(1,101):
+for i in range(1,3):
 	for script in tests.TESTFILES:
 		tests.create_test_case(script)
 		tests.run_test_case(script)
