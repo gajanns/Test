@@ -13,7 +13,7 @@ class Tests:
 	def __init__(self):
 		# TODO (eventually): DEFINE PARAMETERS HERE!
 		# Names of the script files and the JSON files
-		self.TESTFILES = ['kjoint.topo.sh', 'joint2.topo.sh']
+		self.TESTFILES = ['kJoint.topo.sh', 'joint2.topo.sh']
 		self.JSON_FILES = ['kjoint.json', 'joint2.json']
 		# ID of the first test.
 		# This number is used in the CSV file for identification and in the filename.
